@@ -1,5 +1,5 @@
 #a function that takes a list and returns a dictionary with keys evens, odds, and chars.
-def sort(list):
+def sort(list_sort):
 #creating an empty dictionary to hold the output.
     dictionary = {}
 #creating empty lists to hold the even, odd and
@@ -7,7 +7,7 @@ def sort(list):
     cahr = []
     odd = []
 #cheking for values in the list
-    for x in list:
+    for x in list_sort:
 #if x in an integer and divisible by 2, place it in the even list.
         if isinstance(x, int):
             if x%2 == 0:
